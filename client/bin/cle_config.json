@@ -1,0 +1,8 @@
+{
+    "clientID": "test1",
+    "serverID": "hppc",
+    "IP": "127.0.0.1",
+    "port": 9898,
+    "shmMaxNode": 1,
+    "shmKey": 305419896
+}

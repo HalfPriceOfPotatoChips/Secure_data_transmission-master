@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/AesCrypto.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/AesCrypto.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/AesCrypto.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/ClientOperation.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/ClientOperation.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/ClientOperation.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/Codec.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/Codec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/Codec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/CodecFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/CodecFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/CodecFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/Hash.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/Hash.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/Hash.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/HmacPool.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/HmacPool.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/HmacPool.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/RequestCodec.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/RequestCodec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/RequestCodec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/RequestFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/RequestFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/RequestFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/RespondCodec.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/RespondCodec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/RespondCodec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/RespondFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/RespondFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/RespondFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/RsaCrypto.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/RsaCrypto.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/RsaCrypto.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/SecKeyShm.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/SecKeyShm.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/SecKeyShm.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/ShareMemory.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/ShareMemory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/ShareMemory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/TcpServer.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/TcpSocket.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
+  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/logger.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/logger.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/src/logger.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/test",
+  "command": "/usr/bin/c++   -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g   -o CMakeFiles/clienttest.dir/transit_data.pb.cc.o -c /home/hppc/ccode/projects/mysecure/client/test/transit_data.pb.cc",
+  "file": "/home/hppc/ccode/projects/mysecure/client/test/transit_data.pb.cc"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/client/build/test",
+  "command": "/usr/bin/c++   -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g   -o CMakeFiles/clienttest.dir/main.cpp.o -c /home/hppc/ccode/projects/mysecure/client/test/main.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/client/test/main.cpp"
+}
+]

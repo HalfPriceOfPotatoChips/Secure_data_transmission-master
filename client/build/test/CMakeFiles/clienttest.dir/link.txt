@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -Wall -g  -rdynamic CMakeFiles/clienttest.dir/transit_data.pb.cc.o CMakeFiles/clienttest.dir/main.cpp.o  -o ../../bin/clienttest   -L/home/hppc/ccode/projects/mysecure/client/lib  -Wl,-rpath,/home/hppc/ccode/projects/mysecure/client/lib ../../lib/libsecclient.so -lprotobuf -lpthread -lcrypto -ljsoncpp 

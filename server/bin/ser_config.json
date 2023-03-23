@@ -1,0 +1,13 @@
+{
+    "IP": "127.0.0.1",
+    "port": 9898,
+    "ID": "hppc",
+    "dbHost": "127.0.0.1",
+    "dbUse": "root",
+    "dbPasswd": "123456",
+    "dbName": "SECMNG",
+    "shmMaxNode": 20,
+    "shmPath": "/home",
+    "maxClient": 3000,
+    "rsaPath": "."
+}

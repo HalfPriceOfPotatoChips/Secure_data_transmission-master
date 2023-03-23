@@ -1,0 +1,8 @@
+/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles/rebuild_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles/edit_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/rebuild_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/edit_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir
+/home/hppc/ccode/projects/mysecure/client/build/test/CMakeFiles/rebuild_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/test/CMakeFiles/edit_cache.dir
+/home/hppc/ccode/projects/mysecure/client/build/test/CMakeFiles/clienttest.dir

@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/AesCrypto.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/AesCrypto.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/AesCrypto.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/Codec.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/Codec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/Codec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/CodecFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/CodecFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/CodecFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/Hash.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/Hash.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/Hash.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/HmacPool.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/HmacPool.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/HmacPool.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/ItcastLog.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/ItcastLog.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/ItcastLog.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/MySQLOP.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/MySQLOP.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/MySQLOP.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/RequestCodec.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/RequestCodec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/RequestCodec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/RequestFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/RequestFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/RequestFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/RespondCodec.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/RespondCodec.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/RespondCodec.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/RespondFactory.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/RespondFactory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/RespondFactory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/RsaCrypto.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/RsaCrypto.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/RsaCrypto.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/SecKeyShm.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/SecKeyShm.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/SecKeyShm.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/ServerOperation.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/ServerOperation.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/ServerOperation.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/ShareMemory.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/ShareMemory.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/ShareMemory.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/TcpServer.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/TcpServer.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/TcpServer.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/TcpSocket.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/TcpSocket.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/TcpSocket.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/logger.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/logger.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/logger.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/sqlConnectionPool.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/sqlConnectionPool.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/sqlConnectionPool.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/src",
+  "command": "/usr/bin/c++  -Dmysecure_EXPORTS -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g  -fPIC   -o CMakeFiles/mysecure.dir/thread_pool.cpp.o -c /home/hppc/ccode/projects/mysecure/server/src/thread_pool.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/src/thread_pool.cpp"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/test",
+  "command": "/usr/bin/c++   -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g    -o CMakeFiles/test.dir/transit_data.pb.cc.o -c /home/hppc/ccode/projects/mysecure/server/test/transit_data.pb.cc",
+  "file": "/home/hppc/ccode/projects/mysecure/server/test/transit_data.pb.cc"
+},
+{
+  "directory": "/home/hppc/ccode/projects/mysecure/server/build/test",
+  "command": "/usr/bin/c++   -I/home/hppc/ccode/projects/mysecure/server/src/include -I/home/hppc/ccode/projects/mysecure/server/test  -g    -o CMakeFiles/test.dir/main.cpp.o -c /home/hppc/ccode/projects/mysecure/server/test/main.cpp",
+  "file": "/home/hppc/ccode/projects/mysecure/server/test/main.cpp"
+}
+]
