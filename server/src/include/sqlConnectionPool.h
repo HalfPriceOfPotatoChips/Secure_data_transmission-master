@@ -1,5 +1,5 @@
-#ifndef MYWEBSERVER_SQLCONNECTIONPOOL_H
-#define MYWEBSERVER_SQLCONNECTIONPOOL_H
+#ifndef SQLCONNECTIONPOOL_H
+#define SQLCONNECTIONPOOL_H
 
 
 #include <stdio.h>
@@ -59,4 +59,4 @@ private:
 };
 
 
-#endif //MYWEBSERVER_SQLCONNECTIONPOOL_H
+#endif 
