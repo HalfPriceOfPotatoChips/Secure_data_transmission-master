@@ -2,6 +2,7 @@
 #include "ShareMemory.h"
 #include <string.h>
 #include <iostream>
+#include <mutex>
 
 class NodeSecKeyInfo
 {
@@ -36,5 +37,6 @@ public:
 
 private:
 	int m_maxNode;
+	std::mutex mtx;
 };
 

@@ -36,39 +36,43 @@ int SecKeyShm::shmWrite(NodeSecKeyInfo * pNodeInfo)
 		return ret;
 	}
 
-	// 判断传入的网点密钥是否已经存在
-	NodeSecKeyInfo	*pNode = NULL;
-	for (int i = 0; i < m_maxNode; i++)
 	{
-		// pNode依次指向每个节点的首地址
-		pNode = pAddr + i;
-		if (strcmp(pNode->clientID, pNodeInfo->clientID) == 0 &&
-			strcmp(pNode->serverID, pNodeInfo->serverID) == 0)
+		std::lock_guard<mutex> lock(mtx);
+		// 判断传入的网点密钥是否已经存在
+		NodeSecKeyInfo	*pNode = NULL;
+		for (int i = 0; i < m_maxNode; i++)
 		{
-			// 如果找到了该网点秘钥已经存在, 使用新秘钥覆盖旧的值
-			memcpy(pNode, pNodeInfo, sizeof(NodeSecKeyInfo));
-			unmapShm();
-			return 0;
+			// pNode依次指向每个节点的首地址
+			pNode = pAddr + i;
+			if (strcmp(pNode->clientID, pNodeInfo->clientID) == 0 &&
+				strcmp(pNode->serverID, pNodeInfo->serverID) == 0)
+			{
+				// 如果找到了该网点秘钥已经存在, 使用新秘钥覆盖旧的值
+				memcpy(pNode, pNodeInfo, sizeof(NodeSecKeyInfo));
+				unmapShm();
+				return 0;
+			}
 		}
-	}
 
-	// 若没有找到对应的信息, 找一个空节点将秘钥信息写入
-	int i = 0;
-	NodeSecKeyInfo  tmpNodeInfo; //空结点
-	memset(&tmpNodeInfo, 0, sizeof(NodeSecKeyInfo));
-	for (i = 0; i < m_maxNode; i++)
-	{
-		pNode = pAddr + i;
-		if (memcmp(&tmpNodeInfo, pNode, sizeof(NodeSecKeyInfo)) == 0)
+		// 若没有找到对应的信息, 找一个空节点将秘钥信息写入
+		int i = 0;
+		NodeSecKeyInfo  tmpNodeInfo; //空结点
+		memset(&tmpNodeInfo, 0, sizeof(NodeSecKeyInfo));
+		for (i = 0; i < m_maxNode; i++)
 		{
-			ret = 0;
-			memcpy(pNode, pNodeInfo, sizeof(NodeSecKeyInfo));
-			break;
+			pNode = pAddr + i;
+			if (memcmp(&tmpNodeInfo, pNode, sizeof(NodeSecKeyInfo)) == 0)
+			{
+				ret = 0;
+				memcpy(pNode, pNodeInfo, sizeof(NodeSecKeyInfo));
+				break;
+			}
 		}
-	}
-	if (i == m_maxNode)
-	{
-		ret = -1;
+
+		if (i == m_maxNode)
+		{
+			ret = -1;
+		}
 	}
 
 	unmapShm();
