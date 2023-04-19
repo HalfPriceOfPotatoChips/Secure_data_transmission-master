@@ -36,7 +36,7 @@ ClientOperation::ClientOperation(string jsonPath)
 
 	// 连接服务端
 	m_socket.connectToHost(m_info.serverIP, m_info.sPort);
-	m_socket.blockIO();
+	//m_socket.blockIO();
     cout << "连接服务器成功" << endl;
 }
 

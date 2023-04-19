@@ -1,6 +1,7 @@
 #include "HmacPool.h"
 
 const int HmacMaxSize = 1024;
+const int CurHmacSize = 100;
 
 void Hmac::init(const string& key, HashType type){ 
     key_ = key;
@@ -121,7 +122,7 @@ bool Hmac::sha512Auth(string& buf, const string& data){
 
 HmacPool* HmacPool::GetInstance(){
     // 单例构造
-    static HmacPool hmacPool(100);
+    static HmacPool hmacPool(CurHmacSize);
     return &hmacPool;
 }
 

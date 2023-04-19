@@ -103,7 +103,7 @@ int TcpSocket::sendMsg(const char * sendData, int dataLen, int timeout)
 			return writed;
 		}
 
-		if (netdata != NULL)  //wangbaoming 20150630 modify bug
+		if (netdata != NULL)  
 		{
 			free(netdata);
 			netdata = NULL;
@@ -132,26 +132,29 @@ int TcpSocket::recvMsg(char ** recvData, int *recvLen, int timeout)
 	if (recvData == NULL || recvLen == NULL)
 	{
 		ret = ParamError;
-		printf("func sckClient_rev() timeout , err:%d \n", TimeoutError);
+		printf("func sckClient_rev() err: %d \n", ParamError);
 		return ret;
 	}
 
-	/*使用epoll检测读事件，故不需要select检测是否可读*/
-	// ret = readTimeout(timeout); //bugs modify bombing
-	// if (ret != 0)
-	// {
-	// 	if (ret == -1 || errno == ETIMEDOUT)
-	// 	{
-	// 		ret = TimeoutError;
-	// 		m_log.Log(__FILE__, __LINE__, ItcastLog::ERROR, ret, "func read_timeout() timeout");
-	// 		return ret;
-	// 	}
-	// 	else
-	// 	{
-	// 		m_log.Log(__FILE__, __LINE__, ItcastLog::ERROR, ret, "func read_timeout() err");
-	// 		return ret;
-	// 	}
-	// }
+	ret = readTimeout(timeout); 
+	if (ret != 0)
+	{
+		if (ret == -1 || errno == ETIMEDOUT)
+		{
+			ret = TimeoutError;
+			//m_log.Log(__FILE__, __LINE__, ItcastLog::ERROR, ret, "func read_timeout() timeout");
+			LOG_ERR("file:%s  line:%d  func read_timeout() timeout err: %d",
+					__FILE__, __LINE__, ret);
+			return ret;
+		}
+		else
+		{
+			//m_log.Log(__FILE__, __LINE__, ItcastLog::ERROR, ret, "func read_timeout() err");
+			LOG_ERR("file:%s  line:%d  func read_timeout() err: %d",
+					__FILE__, __LINE__, ret);
+			return ret;
+		}
+	}
 
 	int netdatalen = 0;
 	ret = readn(&netdatalen, 4); //读包头 4个字节
@@ -231,9 +234,7 @@ void TcpSocket::freeMemory(char ** buf)
 	}
 }
 
-/////////////////////////////////////////////////
-//////             子函数                   //////
-/////////////////////////////////////////////////
+
 /*
 * noBlockIO - 设置I/O为非阻塞模式
 * @fd: 文件描符符
@@ -261,7 +262,7 @@ int TcpSocket::noBlockIO()
 	return ret;
 }
 
-void TcpSocket::addEpollTree(int ep_fd){
+void TcpSocket::addEpollTree(int ep_fd, bool oneshot){
 	epoll_event event;
 	event.data.fd = m_socket;
 	event.events = EPOLLIN | EPOLLET | EPOLLRDHUP;
@@ -390,7 +391,7 @@ int TcpSocket::connectTimeout(sockaddr_in *addr, unsigned int wait_seconds)
 	socklen_t addrlen = sizeof(struct sockaddr_in);
 
 	if (wait_seconds > 0)
-		blockIO();
+		noBlockIO();
 
 	ret = connect(m_socket, (struct sockaddr*)addr, addrlen);
 	if (ret < 0 && errno == EINPROGRESS)
@@ -441,7 +442,7 @@ int TcpSocket::connectTimeout(sockaddr_in *addr, unsigned int wait_seconds)
 	}
 	if (wait_seconds > 0)
 	{
-		noBlockIO();
+		blockIO();
 	}
 	return ret;
 }
@@ -480,7 +481,7 @@ int TcpSocket::readn(void *buf, int count)
 /*
 * writen - 发送固定字节数
 * @buf: 发送缓冲区
-* @count: 要读取的字节数
+* @count: 要发送的字节数
 * 成功返回count，失败返回-1
 */
 int TcpSocket::writen(const void *buf, int count)

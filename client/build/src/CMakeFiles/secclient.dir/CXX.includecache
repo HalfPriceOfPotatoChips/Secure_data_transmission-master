@@ -108,26 +108,6 @@ sys/types.h
 string.h
 -
 
-../src/include/TcpServer.h
-netinet/in.h
--
-arpa/inet.h
--
-logger.h
-../src/include/logger.h
-TcpSocket.h
-../src/include/TcpSocket.h
-errno.h
--
-string.h
--
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-
 ../src/include/TcpSocket.h
 logger.h
 ../src/include/logger.h
@@ -242,19 +222,7 @@ Hash.h
 HmacPool.h
 /home/hppc/ccode/projects/mysecure/client/src/HmacPool.h
 
-/home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp
-TcpServer.h
-/home/hppc/ccode/projects/mysecure/client/src/TcpServer.h
-
 /home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp
 TcpSocket.h
 /home/hppc/ccode/projects/mysecure/client/src/TcpSocket.h
-
-/home/hppc/ccode/projects/mysecure/client/src/logger.cpp
-logger.h
-/home/hppc/ccode/projects/mysecure/client/src/logger.h
-time.h
--
-iostream
--
 

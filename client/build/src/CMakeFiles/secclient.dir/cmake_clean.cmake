@@ -14,7 +14,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/secclient.dir/RsaCrypto.cpp.o"
   "CMakeFiles/secclient.dir/SecKeyShm.cpp.o"
   "CMakeFiles/secclient.dir/ShareMemory.cpp.o"
-  "CMakeFiles/secclient.dir/TcpServer.cpp.o"
   "CMakeFiles/secclient.dir/TcpSocket.cpp.o"
   "CMakeFiles/secclient.dir/logger.cpp.o"
 )

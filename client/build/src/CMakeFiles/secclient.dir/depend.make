@@ -70,12 +70,6 @@ src/CMakeFiles/secclient.dir/SecKeyShm.cpp.o: ../src/SecKeyShm.cpp
 src/CMakeFiles/secclient.dir/ShareMemory.cpp.o: ../src/include/ShareMemory.h
 src/CMakeFiles/secclient.dir/ShareMemory.cpp.o: ../src/ShareMemory.cpp
 
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/include/TcpServer.h
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/include/TcpSocket.h
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/include/lockqueue.h
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/include/logger.h
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/TcpServer.cpp
-
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o: ../src/include/TcpSocket.h
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o: ../src/include/lockqueue.h
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o: ../src/include/logger.h

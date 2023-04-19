@@ -70,12 +70,6 @@ src/CMakeFiles/secclient.dir/SecKeyShm.cpp.o
 src/CMakeFiles/secclient.dir/ShareMemory.cpp.o
  ../src/include/ShareMemory.h
  /home/hppc/ccode/projects/mysecure/client/src/ShareMemory.cpp
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o
- ../src/include/TcpServer.h
- ../src/include/TcpSocket.h
- ../src/include/lockqueue.h
- ../src/include/logger.h
- /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o
  ../src/include/TcpSocket.h
  ../src/include/lockqueue.h

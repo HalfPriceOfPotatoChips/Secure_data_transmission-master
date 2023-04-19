@@ -476,33 +476,6 @@ ShareMemory.cpp.s:
 	cd /home/hppc/ccode/projects/mysecure/client/build && $(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/ShareMemory.cpp.s
 .PHONY : ShareMemory.cpp.s
 
-TcpServer.o: TcpServer.cpp.o
-
-.PHONY : TcpServer.o
-
-# target to build an object file
-TcpServer.cpp.o:
-	cd /home/hppc/ccode/projects/mysecure/client/build && $(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/TcpServer.cpp.o
-.PHONY : TcpServer.cpp.o
-
-TcpServer.i: TcpServer.cpp.i
-
-.PHONY : TcpServer.i
-
-# target to preprocess a source file
-TcpServer.cpp.i:
-	cd /home/hppc/ccode/projects/mysecure/client/build && $(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/TcpServer.cpp.i
-.PHONY : TcpServer.cpp.i
-
-TcpServer.s: TcpServer.cpp.s
-
-.PHONY : TcpServer.s
-
-# target to generate assembly for a file
-TcpServer.cpp.s:
-	cd /home/hppc/ccode/projects/mysecure/client/build && $(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/TcpServer.cpp.s
-.PHONY : TcpServer.cpp.s
-
 TcpSocket.o: TcpSocket.cpp.o
 
 .PHONY : TcpSocket.o
@@ -605,9 +578,6 @@ help:
 	@echo "... ShareMemory.o"
 	@echo "... ShareMemory.i"
 	@echo "... ShareMemory.s"
-	@echo "... TcpServer.o"
-	@echo "... TcpServer.i"
-	@echo "... TcpServer.s"
 	@echo "... TcpSocket.o"
 	@echo "... TcpSocket.i"
 	@echo "... TcpSocket.s"

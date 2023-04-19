@@ -66,11 +66,6 @@
 },
 {
   "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
-  "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/TcpServer.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp",
-  "file": "/home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp"
-},
-{
-  "directory": "/home/hppc/ccode/projects/mysecure/client/build/src",
   "command": "/usr/bin/c++  -Dsecclient_EXPORTS -I/home/hppc/ccode/projects/mysecure/client/src/include -I/home/hppc/ccode/projects/mysecure/client/test  -g -Wall -g -fPIC   -o CMakeFiles/secclient.dir/TcpSocket.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp",
   "file": "/home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp"
 },

@@ -19,7 +19,7 @@ class connection_pool
 public:
 	MySQLOP *GetConnection();				 	//获取数据库连接
 	bool ReleaseConnection(MySQLOP *conn); 		//释放连接
-	int GetFreeConn();							//获取连接
+	int GetFreeConn();							//获取空闲连接数量
 	void DestroyPool();							//销毁所有连接
 
 	//单例模式

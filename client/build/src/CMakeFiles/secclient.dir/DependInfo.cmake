@@ -17,7 +17,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hppc/ccode/projects/mysecure/client/src/RsaCrypto.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/RsaCrypto.cpp.o"
   "/home/hppc/ccode/projects/mysecure/client/src/SecKeyShm.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/SecKeyShm.cpp.o"
   "/home/hppc/ccode/projects/mysecure/client/src/ShareMemory.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/ShareMemory.cpp.o"
-  "/home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/TcpServer.cpp.o"
   "/home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/TcpSocket.cpp.o"
   "/home/hppc/ccode/projects/mysecure/client/src/logger.cpp" "/home/hppc/ccode/projects/mysecure/client/build/src/CMakeFiles/secclient.dir/logger.cpp.o"
   )

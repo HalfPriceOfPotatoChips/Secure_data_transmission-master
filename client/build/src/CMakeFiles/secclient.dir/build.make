@@ -226,22 +226,9 @@ src/CMakeFiles/secclient.dir/ShareMemory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/secclient.dir/ShareMemory.cpp.s"
 	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hppc/ccode/projects/mysecure/client/src/ShareMemory.cpp -o CMakeFiles/secclient.dir/ShareMemory.cpp.s
 
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: src/CMakeFiles/secclient.dir/flags.make
-src/CMakeFiles/secclient.dir/TcpServer.cpp.o: ../src/TcpServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/secclient.dir/TcpServer.cpp.o"
-	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/secclient.dir/TcpServer.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp
-
-src/CMakeFiles/secclient.dir/TcpServer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/secclient.dir/TcpServer.cpp.i"
-	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp > CMakeFiles/secclient.dir/TcpServer.cpp.i
-
-src/CMakeFiles/secclient.dir/TcpServer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/secclient.dir/TcpServer.cpp.s"
-	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hppc/ccode/projects/mysecure/client/src/TcpServer.cpp -o CMakeFiles/secclient.dir/TcpServer.cpp.s
-
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o: src/CMakeFiles/secclient.dir/flags.make
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.o: ../src/TcpSocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/secclient.dir/TcpSocket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/secclient.dir/TcpSocket.cpp.o"
 	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/secclient.dir/TcpSocket.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/TcpSocket.cpp
 
 src/CMakeFiles/secclient.dir/TcpSocket.cpp.i: cmake_force
@@ -254,7 +241,7 @@ src/CMakeFiles/secclient.dir/TcpSocket.cpp.s: cmake_force
 
 src/CMakeFiles/secclient.dir/logger.cpp.o: src/CMakeFiles/secclient.dir/flags.make
 src/CMakeFiles/secclient.dir/logger.cpp.o: ../src/logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/secclient.dir/logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/secclient.dir/logger.cpp.o"
 	cd /home/hppc/ccode/projects/mysecure/client/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/secclient.dir/logger.cpp.o -c /home/hppc/ccode/projects/mysecure/client/src/logger.cpp
 
 src/CMakeFiles/secclient.dir/logger.cpp.i: cmake_force
@@ -280,7 +267,6 @@ secclient_OBJECTS = \
 "CMakeFiles/secclient.dir/RsaCrypto.cpp.o" \
 "CMakeFiles/secclient.dir/SecKeyShm.cpp.o" \
 "CMakeFiles/secclient.dir/ShareMemory.cpp.o" \
-"CMakeFiles/secclient.dir/TcpServer.cpp.o" \
 "CMakeFiles/secclient.dir/TcpSocket.cpp.o" \
 "CMakeFiles/secclient.dir/logger.cpp.o"
 
@@ -300,12 +286,11 @@ secclient_EXTERNAL_OBJECTS =
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/RsaCrypto.cpp.o
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/SecKeyShm.cpp.o
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/ShareMemory.cpp.o
-../lib/libsecclient.so: src/CMakeFiles/secclient.dir/TcpServer.cpp.o
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/TcpSocket.cpp.o
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/logger.cpp.o
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/build.make
 ../lib/libsecclient.so: src/CMakeFiles/secclient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library ../../lib/libsecclient.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../../lib/libsecclient.so"
 	cd /home/hppc/ccode/projects/mysecure/client/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/secclient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -113,12 +113,12 @@ test/clean: test/CMakeFiles/clienttest.dir/clean
 src/CMakeFiles/secclient.dir/all:
 	$(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/depend
 	$(MAKE) -f src/CMakeFiles/secclient.dir/build.make src/CMakeFiles/secclient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target secclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hppc/ccode/projects/mysecure/client/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target secclient"
 .PHONY : src/CMakeFiles/secclient.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/secclient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/secclient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/secclient.dir/rule
@@ -145,7 +145,7 @@ test/CMakeFiles/clienttest.dir/all: src/CMakeFiles/secclient.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/clienttest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 test/CMakeFiles/clienttest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hppc/ccode/projects/mysecure/client/build/CMakeFiles 0
 .PHONY : test/CMakeFiles/clienttest.dir/rule

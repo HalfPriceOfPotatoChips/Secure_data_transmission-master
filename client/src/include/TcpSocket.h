@@ -19,7 +19,7 @@
 
 /* 用于通信的套接字类 */
 // 超时的时间
-static const int TIMEOUT = 1000;
+static const int TIMEOUT = 20;
 class TcpSocket
 {
 public:
@@ -45,7 +45,7 @@ public:
 	// 设置I/O为阻塞模式
 	int noBlockIO();
 	// 添加到epoll
-	void addEpollTree(int ep_fd);
+	void addEpollTree(int ep_fd, bool oneshot);
 	// 访问fd
 	int getfd();
 

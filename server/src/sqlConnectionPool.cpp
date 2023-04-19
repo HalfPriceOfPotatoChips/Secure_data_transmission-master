@@ -1,7 +1,3 @@
-//
-// Created by chen on 2022/7/5.
-//
-
 #include "sqlConnectionPool.h"
 
 connection_pool::connection_pool()
@@ -81,7 +77,6 @@ bool connection_pool::ReleaseConnection(MySQLOP *con)
 //销毁数据库连接池
 void connection_pool::DestroyPool()
 {
-
 	pthread_mutex_lock(&lock);
 	if (connList.size() > 0)
 	{
